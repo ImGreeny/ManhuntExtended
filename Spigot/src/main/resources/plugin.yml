@@ -1,0 +1,8 @@
+name: ManhuntExtended
+version: ${project.version}
+main: pw.greeny.manhuntextended.ManhuntExtended
+api-version: 1.16
+prefix: ManhuntExtended
+authors: [ Greeny ]
+description: Original Dream's Manhunt minigame, but extended.
+website: greeny.pw
