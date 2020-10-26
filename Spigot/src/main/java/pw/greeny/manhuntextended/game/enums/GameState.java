@@ -4,7 +4,11 @@ import org.bukkit.ChatColor;
 
 public enum GameState {
 
-    LOBBY(0, "Lobby", ChatColor.GOLD),;
+    LOBBY(0, "Lobby", ChatColor.GOLD),
+    LOADING(1, "Loading...", ChatColor.GOLD),
+    STARTING(2, "Starting", ChatColor.DARK_PURPLE),
+    STARTED(3, "InGame", ChatColor.BLUE),
+    END(4, "END", ChatColor.WHITE);
 
     private int id;
     private String name;
